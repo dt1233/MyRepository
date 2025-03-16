@@ -1,0 +1,142 @@
+a {
+  color: #cccccc;
+  cursor: url('/tr/img/click.png'), auto;
+}
+
+a:hover {
+  color: whitesmoke;
+}
+button:hover{
+  cursor: url('/tr/img/click.png'), auto;
+}
+.pp{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-size: cover;
+  object-fit: cover;
+}
+strong{
+  color: #ff914d;
+}
+.social-icons{
+  display: flex;
+  font-size: 30px;
+  padding-left: 345px;
+  padding-top: 20px;
+}
+.social-icons a {
+  padding-left: 60px;
+}
+.yaziDuzen{
+  display: inline-block;
+  color: #ffffff;
+  width: 60%;
+  height: 250px;
+  background: rgba(29, 29, 29, 0.7);
+  padding: 20px;
+	box-shadow: 0 0 25px 15px black;
+  margin-top: 200px;
+  font-size: large;
+  
+}
+
+.bodyİndex{
+  background-image: url("/tr/img/body.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow-y: auto;
+  right: -260px;
+  width: 260px;
+  padding-top: 18px;
+  background: rgba(29, 29, 29, 0.8);
+  transition: 0.4s;
+}
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu ul li img {
+  width: 60%;
+}
+.nav-menu a, .nav-menu a:focus {
+  display: block;
+  position: relative;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-weight: 500;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.nav-menu a:hover, 
+.nav-menu .active > a,
+.nav-menu li:hover > a {
+  color: #ff914d;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.787);
+}
+
+.nav-menu .drop-down > a:after {
+  font-family: "boxicons";
+  padding-left: 10px;
+  position: absolute;
+  right: 15px;
+}
+
+.nav-menu-active {
+  right: 0;
+}
+
+.nav-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: all 0.4s;
+  outline: none !important;
+  line-height: 1;
+  cursor: pointer;
+  text-align: right;
+  padding: 10px 12px;
+  border-radius: 5px;
+}
+.nav-toggle i {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.nav-toggle-active {
+  right: 275px;
+}
+.hidden {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#changingText {
+  transition: opacity 0.5s ease-in-out;
+}
+.ghost {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#yaziDegis {
+  transition: opacity 0.5s ease-in-out;
+}
+.footer{
+  margin-top: 285px;
+}
+body {
+  cursor: url('/tr/img/cursor.png'), auto;
+}

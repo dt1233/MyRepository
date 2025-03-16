@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>CV | About Me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/en/css/style.css">
+  <link rel="icon" href="/en/img/icon.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body class="bodyİndex">
+  <center>
+    <div class="yaziDuzen">
+      <h2>ABOUT ME</h2>
+      <hr>
+      <p><sub>Hello, I'm Muhammet Bilal Yıldız. I'm a Software Engineering student at İnönü University, and I'm 19 years
+          old.I'm looking to advance my skills in web programming/development and game programming/development. I have
+          some experience in these fields, albeit at a beginner level.Among my hobbies are playing football, playing
+          volleyball, and playing computer games. You can reach my social media accounts below.</sub></p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/99mby/" target="_blank"><i style="color:#ff914d;"
+            class="fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com/99mby" target="_blank"><i style="color: #ff914d;"
+            class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/muhammet-bilal-y%C4%B1ld%C4%B1z-22516a29b/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BDF5Vb%2BLvRp2%2FQbStJIm%2BmA%3D%3D"
+          target="_blank"><i style="color: #ff914d;" class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+    <div class="footer">
+      <p>2024 © Muhammet Bilal Yıldız | Copyrights reserved.</p>
+    </div>
+  </center>
+  <button class="nav-toggle" type="button"><i class="fa-solid fa-bars"></i></button>
+  <nav class="nav-menu">
+    <ul>
+      <li><a href="/en/hello.html" class="scrollto">Hello</a></li>
+      <li class="active"><a href="/en/aboutMe.html" class="scrollto">About Me</a></li>
+      <li><a href="/en/information.html" class="scrollto">Personal Information</a></li>
+      <li><a href="/en/createcv.html" class="scrollto" target="_blank">Create general CV</a></li>
+    </ul>
+    <p style="padding-top: 575px; padding-left: 100px; color: white; font-size: 30px;">
+      <img src="/tr/img/tr.jpg" alt="Türkçe" style="width: 25px; height: 20px;" onclick="changeLanguage('tr')">
+      |
+      <img src="/en/img/eng.png" alt="English" style="width: 25px; height: 20px;" onclick="changeLanguage('en')">
+    </p>
+  </nav>
+  <script src="/en/js/main.js"></script>
+  <script>
+    function changeLanguage(lang) {
+      if (lang === 'tr') {
+        window.location.href = "/tr/hakkimda.html";
+      } else if (lang === 'en') {
+        window.location.href = "/en/aboutMe.html";
+      }
+    }
+  </script>
+  </body>
+  </html>

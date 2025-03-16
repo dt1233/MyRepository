@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CV | Merhaba</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/tr/css/style.css">
+  <link rel="icon" href="/tr/img/icon.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="bodyİndex">
+  <center>
+    <div class="yaziDuzen">
+    <img src="/tr/img/profil.jpg" alt="profil Resmi" class="pp">
+    <hr>
+    <h2 id="changingText">MERHABA!</h2>
+    <p style="color: #ff914d;"><sup>Yazılım Mühendisliği Öğr.</sup></p>
+  </div>
+  <div class="footer">
+    <p>2024 © Muhammet Bilal Yıldız | Tüm hakları saklıdır.</p>
+  </div>
+</center>
+	<button class="nav-toggle" type="button"><i class="fa-solid fa-bars"></i></button>
+      <nav class="nav-menu">
+        <ul>
+          <li class="active"><a href="/tr/merhaba.html" class="scrollto">Merhaba</a></li>
+          <li><a href="/tr/hakkimda.html" class="scrollto">Hakkımda</a></li>
+          <li><a href="/tr/kisiselBilgiler.html" class="scrollto">Kişisel Bilgiler</a></li> 
+          <li><a href="/tr/genelcv.html" class="scrollto" target="_blank">Genel CV Oluştur</a></li> 
+        </ul>
+        <p style="padding-top: 575px; padding-left: 100px; color: white; font-size: 30px;">
+          <img src="/tr/img/tr.jpg" alt="Türkçe" style="width: 25px; height: 20px;" onclick="changeLanguage('tr')">
+          |
+          <img src="/en/img/eng.png" alt="English" style="width: 25px; height: 20px;" onclick="changeLanguage('en')">
+        </p>
+      </nav>
+      <script src="/tr/js/main.js"></script>
+      <script>
+        function changeLanguage(lang) {
+          if (lang === 'tr') {
+            window.location.href = "/tr/merhaba.html";
+          } else if (lang === 'en') {
+            window.location.href = "/en/hello.html";
+          }
+        }
+      </script>
+      </body>
+      </html>

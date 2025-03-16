@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CV | Personal Information</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/en/css/style.css">
+  <link rel="icon" href="/en/img/icon.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="bodyİndex">
+  <center>
+    <div class="yaziDuzen">
+    <h2>PERSONAL INFORMATION</h2>
+    <hr>
+    <div class="leftYazi">
+    <p><sub><strong>Phone Number: </strong>+90 (551) 041 0068 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Educational Background: </strong>Licence</sub></p>
+    <p><sub><strong>E-Posta: </strong>muhammetbilalyildiz@outlook.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Marital Status: </strong>Single</sub></p>
+    <p><sub><strong>Birth Date: </strong>13.07.2005 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Foreign Language: </strong>English(%30)</sub></p>
+    <p><sub><strong>Driver's Licence: </strong>None</sub></p>
+    </div>
+    </div>
+    <div class="footer">
+      <p>2024 © Muhammet Bilal Yıldız | Copyrights reserved.</p>
+    </div>
+</center>
+	<button class="nav-toggle" type="button"><i class="fa-solid fa-bars"></i></button>
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="/en/hello.html" class="scrollto">Hello</a></li>
+          <li><a href="/en/aboutMe.html" class="scrollto">About Me</a></li>
+          <li class="active"><a href="/en/information.html" class="scrollto">Personal Information</a></li> 
+          <li><a href="/en/createcv.html" class="scrollto" target="_blank">Create general CV</a></li> 
+        </ul>
+        <p style="padding-top: 575px; padding-left: 100px; color: white; font-size: 30px;">
+          <img src="/tr/img/tr.jpg" alt="Türkçe" style="width: 25px; height: 20px;" onclick="changeLanguage('tr')">
+          |
+          <img src="/en/img/eng.png" alt="English" style="width: 25px; height: 20px;" onclick="changeLanguage('en')">
+        </p>
+      </nav>
+      <script src="/en/js/main.js"></script>
+      <script>
+        function changeLanguage(lang) {
+          if (lang === 'tr') {
+            window.location.href = "/tr/kisiselBilgiler.html";
+          } else if (lang === 'en') {
+            window.location.href = "/en/information.html";
+          }
+        }
+      </script>
+      </body>
+      </html>
