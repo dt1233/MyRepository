@@ -1,4 +1,4 @@
-#Eksik dosyalar tamamlandıkça burası güncellenecektir.
+Eksik dosyalar tamamlandıkça burası güncellenecektir.
 
 
 -SRS Belgesi eklendi.
